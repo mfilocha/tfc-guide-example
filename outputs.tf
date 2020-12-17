@@ -1,3 +1,3 @@
-output "tfc_example_table_arn" {
-  value = aws_dynamodb_table.tfc_example_table.arn
+output "example_pet_name" {
+  value = random_pet.test_name.id
 }
