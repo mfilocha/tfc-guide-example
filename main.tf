@@ -1,5 +1,3 @@
-provider "random" {
-  version = "2.2"
-}
+provider "random" {}
 
 resource "random_pet" "test_name" {}
