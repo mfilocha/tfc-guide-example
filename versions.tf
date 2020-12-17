@@ -6,10 +6,10 @@ terraform {
   }
   required_version = ">= 0.13"
 
-  backend "remote" {
-    organization = "mfilocha"
-    workspaces {
-      name = "tfc-guide-example"
-    }
+  # backend "remote" {
+  #   organization = "mfilocha"
+  #   workspaces {
+  #     name = "tfc-guide-example"
+  #   }
   }
 }
