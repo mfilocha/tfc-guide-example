@@ -7,11 +7,12 @@ terraform {
   required_version = ">= 0.13"
 
   ## This is for GitHub executed builds only
-  # backend "remote" {
-  #   organization = "mfilocha"
-  #   workspaces {
-  #     name = "tfc-guide-example"
-  #   }
-  #}
+  ## or locally run TF CLI
+  backend "remote" {
+    organization = "mfilocha"
+    workspaces {
+      name = "tfc-guide-example"
+    }
+  }
 
 }
